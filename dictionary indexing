@@ -1,0 +1,4 @@
+food={"egg":50,"bun":100,"coke":40}
+print(food)
+print(food["coke"])
+40
