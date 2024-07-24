@@ -1,0 +1,8 @@
+
+>>> t=("gun","run","bun")
+>>> print(t[1])
+run
+>>> print(t[1:2])
+('run',)
+>>> print(t+("fun",444))
+('gun', 'run', 'bun', 'fun', 444)
