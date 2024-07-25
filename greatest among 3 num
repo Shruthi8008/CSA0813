@@ -1,0 +1,11 @@
+a=12
+b=13
+c=5
+if a>b & a>c :
+    print("a is greater")
+elif b>a & b>c :
+    print ("b is greater")
+else :
+    print("c is greater")
+    
+    
