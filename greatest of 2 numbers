@@ -1,0 +1,6 @@
+a=20
+b=69
+if a>b :
+     print("a is bigger")
+else :
+    print("b is bigger")
