@@ -1,0 +1,3 @@
+ n="sruthi"
+>>> print(len(n))
+6
