@@ -1,0 +1,4 @@
+total =int(input("enter the value:"))
+if(total>=2000):
+    total=total+500
+    print(total)
