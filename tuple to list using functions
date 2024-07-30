@@ -1,0 +1,7 @@
+def convert(tuple):
+    a=list(tuple)
+    print(a)
+
+convert((5,7,0,1))
+
+    
