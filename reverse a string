@@ -1,0 +1,5 @@
+
+def str():
+     k="python"[::-1]
+     print(k)
+str()
