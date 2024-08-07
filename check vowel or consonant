@@ -1,0 +1,9 @@
+vowels = "aeiouAEIOU"
+char = 'b'
+if len(char) == 1 and char.isalpha():
+    if char in vowels:
+        print("Vowel")
+    else:
+        print("Consonant")
+else:
+    print("Invalid input.")
