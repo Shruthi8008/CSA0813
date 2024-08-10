@@ -1,0 +1,2 @@
+a="a round face girl in class"
+print("no.of words:",len(a.split()))
