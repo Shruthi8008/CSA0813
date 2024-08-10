@@ -1,0 +1,3 @@
+a="Ben"
+b="Stokes"
+print(''.join([a,b]))
