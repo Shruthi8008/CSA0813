@@ -1,0 +1,9 @@
+st = input("Enter the string: ")
+st = st.upper() 
+sort_st = sorted(st)  
+print(sort_st)
+
+join_st = "".join(sort_st)  
+rev_st = join_st[::-1]  
+print(join_st)
+print(rev_st)
