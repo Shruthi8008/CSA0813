@@ -1,0 +1,8 @@
+string="if you know you know"
+ll=list(string.split())
+print(11)
+
+for i in range(len(ll)):
+    print(ll[i][0].upper(),end=".")
+    continue 
+
