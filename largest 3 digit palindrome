@@ -1,0 +1,11 @@
+n=0
+for a in range(999,99,-1):
+    for b in range(a,99,-1):
+        x=a*b
+        if x>n:
+            s=str(x)
+            if s==s[::-1]:
+                n=x
+print(n)
+ 
+
