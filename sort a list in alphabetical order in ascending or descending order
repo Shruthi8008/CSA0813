@@ -1,0 +1,16 @@
+names = []
+while True:
+    name = input("Enter a name (or type 'done' to finish): ")
+    if name.lower() == 'done':
+        break
+    names.append(name)
+
+order = input("Order (A/D): ").strip().upper()
+
+if order == 'A':
+    names.sort()
+elif order == 'D':
+    names.sort(reverse=True)
+
+for name in names:
+    print(name)
